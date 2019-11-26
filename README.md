@@ -15,7 +15,7 @@ Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank
 
 ## STEP 1:
 First and foremost have to create or set username and password using,\
-createsuperuser command.\
+createsuperuser command.
 
 Using username and password you can get access token, to get access token call below api.\
 
@@ -35,7 +35,6 @@ If access token expired call below api to get new access token.
 #		To call the api Token as mandatory Header.
 
 [http://127.0.0.1:8000/api/v1/banks/getbranchdetails/]
-\
 Using above api you can get bank details.
 
 ### Example: 
@@ -55,8 +54,7 @@ input:{\
 }\
 \
 and also use limit and offset.\
-
-Use requirement.txt file and install all the packages.\
+Use requirement.txt file and install all the packages.
 
 
 
