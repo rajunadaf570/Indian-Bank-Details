@@ -53,7 +53,7 @@ input:{\
 }\
 \
 and also use limit and offset.\
-Use requirement.txt file and install all the packages.
+Use requirement.txt file to install all the packages.
 
 
 
