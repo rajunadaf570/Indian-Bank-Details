@@ -32,7 +32,7 @@ If access token expired call below api to get new access token.
 ## STEP 2:
 #		To call the below api, token as mandatory Header.
 
-[http://127.0.0.1:8000/api/v1/banks/getbranchdetails/]
+[http://127.0.0.1:8000/api/v1/banks/getbranchdetails/]\
 Using above api you can get bank details.
 
 ### Example: 
