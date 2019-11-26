@@ -6,10 +6,7 @@ Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank
 # Tech:
 . Django==2.0\
 . Python==3.7\
-. djangorestframework==3.10.3\
-. djangorestframework-simplejwt==4.3.0\
-. psycopg2-binary==2.7.7\
-. pytz==2019.3
+. Postgresql
 
 
 #           ............To Search the bank details..........
