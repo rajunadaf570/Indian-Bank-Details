@@ -1,9 +1,9 @@
-#About:
+# About:
 Indian Bank details.\
 Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank.\
 
 
-#Tech:
+# Tech:
 . Django==2.0\
 . djangorestframework==3.10.3\
 . djangorestframework-simplejwt==4.3.0\
@@ -11,7 +11,7 @@ Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank
 . pytz==2019.3\
 
 
-###............To Search the bank details..........
+#           ............To Search the bank details..........
 
 ## STEP 1:
 First and foremost have to create or set username and password using,\
@@ -32,7 +32,7 @@ If access token expired call below api to get new access token.\
 #### Output: access token.
 
 ## STEP 2:
-		To call the api Token as mandatory Header.
+#		To call the api Token as mandatory Header.
 
 [http://127.0.0.1:8000/api/v1/banks/getbranchdetails/]
 \
