@@ -1,6 +1,6 @@
 # About:
 Indian Bank details.\
-Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank.\
+Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank.
 
 
 # Tech:
@@ -8,7 +8,7 @@ Using the Bank name, Bank branch, and Bank ifsc code, to get details of the Bank
 . djangorestframework==3.10.3\
 . djangorestframework-simplejwt==4.3.0\
 . psycopg2-binary==2.7.7\
-. pytz==2019.3\
+. pytz==2019.3
 
 
 #           ............To Search the bank details..........
@@ -18,13 +18,13 @@ First and foremost have to create or set username and password using,\
 createsuperuser command.\
 
 Using username and password you can get access token, to get access token call below api.\
-\
+
 #### Input: username, password.
 [http://127.0.0.1:8000/api/token/token\]
 
 #### Output: access token and refresh.
 
-If access token expired call below api to get new access token.\
+If access token expired call below api to get new access token.
 
 #### Onput: refresh token.
 [http://127.0.0.1:8000/api/token/refresh/]
@@ -36,7 +36,7 @@ If access token expired call below api to get new access token.\
 
 [http://127.0.0.1:8000/api/v1/banks/getbranchdetails/]
 \
-Using above api you can get bank details.\
+Using above api you can get bank details.
 
 ### Example: 
 #### 1. Input: {'bank':'STATE BANK OF INDIA'} 
