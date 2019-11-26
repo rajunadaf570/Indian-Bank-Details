@@ -24,7 +24,7 @@ Using username and password you can get access token, to get access token call b
 
 If access token expired call below api to get new access token.
 
-#### Onput: refresh token.
+#### Input: refresh token.
 [http://127.0.0.1:8000/api/token/refresh/]
 
 #### Output: access token.
