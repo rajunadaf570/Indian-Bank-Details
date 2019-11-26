@@ -36,11 +36,13 @@ If access token expired call below api to get new access token.
 Using above api you can get bank details.
 
 ### Example: 
-#### 1. Input: {'bank':'STATE BANK OF INDIA'} 
+#### 1. Input: 
+  {'bank':'STATE BANK OF INDIA'} 
 #### Output:
 list of State Bank details.
 
-#### 2. Input: {'branch':'Sambra'}
+#### 2. Input:
+  {'branch':'Sambra'}
 #### Output:
 list of Bank which is present in Sambra.
 Or else use combination of input to get perticular Bank detials.\
